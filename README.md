@@ -40,5 +40,12 @@ Test if everything works fine:
 8. Enter quit() to exit the spark shell, and close the terminal window
 9. You’ve got everything set up! Hooray!
 
-Datasets:
-ml-100k -> MovieLens 100K Dataset -> finding distribution of movies across different ratings
+## why spark 3 is different than spark 2: 
+- Deprecation of old MLlib library (based on RDDs)
+- Spark 3 is faster (17 times faster than Spark 2 - Adaptive execution and dynamic partition pruning)
+- python 2 deprecation 
+- Deep learning support ( GPU instance support )
+- Deeper Kubernetes support
+- Binary file support
+- SparkGrapgh (Cypher query language - SQL for graph) (Older version: graphX)
+- ACID support in data lakes 
